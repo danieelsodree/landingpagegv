@@ -1,0 +1,105 @@
+body {
+    padding: 1px;
+    margin: 0px auto;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1300px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title {
+    flex-direction: column;
+    line-height: 3px;
+}
+
+#gv {
+    width: 250px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff7200;
+    transition: 0.3s all;
+}
+
+#login {
+    border: 2px solid #ff7200;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#login:hover {
+    background-color: #ff7200;
+    transition: 0.3s;
+    color: rgb(34, 34, 34);
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    padding-left: 100px;
+}
+
+img{
+    width: 550px;
+}
+
+p{
+    line-height: 20px;
+    width: 500px;
+}
+
+h2{
+    font-size: 35px;
+    line-height: 0px;
+}
+
+article{
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    width: 70%;
+}
+
+input{
+    color: #ff7200;
+    font-weight: bold;
+    margin: 7px;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 15px;
+    border: none;
+}
+
+#solicitar{
+    width: 50%;
+    cursor: pointer;
+}
+
+span{
+    color: #ff7200;
+    font-weight: bold;
+}
